@@ -1,3 +1,4 @@
+/* Achieving Consistency and Readability */
 html,
 body {
   padding: 0;
@@ -6,19 +7,25 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+/* Harmonious Link Presentation */
 a {
   color: inherit;
   text-decoration: none;
 }
 
+/* Universal Box Sizing for Precision */
 * {
   box-sizing: border-box;
 }
 
+/* Embracing the Elegance of Dark Mode */
 @media (prefers-color-scheme: dark) {
+  /* Integrating Dark Mode Palette into HTML */
   html {
     color-scheme: dark;
   }
+  
+  /* Enveloping the Body in Dark Mode Aesthetics */
   body {
     color: white;
     background: black;
